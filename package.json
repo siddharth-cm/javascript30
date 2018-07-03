@@ -4,7 +4,8 @@
   "description": "Wes Bos' Javascript30 exercises",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "vanilla": "webpack-dev-server --config webpack.vanilla.js",
+    "react": "webpack-dev-server --config webpack.react.js"
   },
   "repository": {
     "type": "git",
